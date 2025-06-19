@@ -1,0 +1,528 @@
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+@font-face { 
+    font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal 90% Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+/* tell the browser to render HTML 5 elements as block */
+article, aside, figure, footer, header, hgroup, nav, section { 
+    display:block;
+}
+
+p
+{ padding: 0 0 10px 0;
+  line-height: 1.7em;
+  font-size: 100% }
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: normal 175% 'News Cycle', Arial, sans-serif;
+  color: #000;
+  letter-spacing: -1px;
+  margin: 0 0 10px 0;}
+
+h2
+{ font: normal 165% 'News Cycle', Arial, sans-serif;}
+
+h3
+{ font: normal 100% 'News Cycle', Arial, sans-serif;}
+
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 0px 0;
+  font: normal 150% 'News Cycle', Arial, sans-serif;
+  color: #FFF;
+  line-height: 1.5em;}
+
+h5, h6
+{ font: normal 95% 'News Cycle', Arial, sans-serif;
+  color: #888;
+  padding-bottom: 15px;}
+
+span
+{ color: #B1521A;
+  text-shadow: none;}
+
+a, a:hover
+{ color: #000;
+  background: transparent;
+  font-weight: bold;
+  outline: none;
+  text-decoration: underline;}
+
+a:hover
+{ text-decoration: none;}
+
+ul
+{ margin: 2px 0 22px 30px;
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 100%;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+#main{
+    width: 1348px;
+    height: 700px;
+}
+ header, #banner, #menubar, #site_content, footer, #content_grey, nav
+{ margin-left: auto; 
+  margin-right: auto;}
+
+header
+{ height: 150px;
+  background: #FFF;
+  background: -moz-linear-gradient(#535353, #000);
+  background: -o-linear-gradient(#535353, #000);
+}
+
+nav
+{ height: 60px;}  
+
+#strapline
+{ width: 940px;
+  height: 100px;
+  text-align: center; 
+  margin: 0 auto;} 
+
+#welcome_slogan
+{ width: 1000px;
+  float: left;
+  height: 50px;
+  padding-top: 10px;  
+  margin: 0 auto;}    
+
+#welcome_slogan H3
+{ font: bold 300% 'News Cycle', Arial, sans-serif;
+  letter-spacing: -3px;
+  color: #FFF;} 
+
+#menubar
+{ width: 940px;
+  height: 55px;
+  padding-top: 10px;
+  text-align: center; 
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 300px;
+}    
+
+ul#nav
+{ margin:0;}
+
+ul#nav li
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  background: transparent;}
+
+ul#nav li a
+{ float: left;
+  font: bold 130% 'News Cycle', Arial, sans-serif;
+  height: 24px;
+  margin: 8px 20px 0 0;
+  padding: 0px 20px 10px 20px;
+  background: transparent; 
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
+  text-align: center;
+  color: #33cc77;
+  text-decoration: none;} 
+
+ul#nav li.current a, ul#nav li:hover a
+{ color: #fff;
+  background: -moz-linear-gradient(#43A9FF, #0043A8);
+  background: -o-linear-gradient(#43A9FF, #0043A8);
+  background: -webkit-linear-gradient(#43A9FF, #0043A8);
+  text-shadow: none;}
+
+ul img {
+    border: none;}
+
+#slideshow-caption {
+    width: 940px;
+    height: 38px;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    z-index: 500;}
+
+#slideshow-caption .slideshow-caption-container {
+    padding: 10px 25px 10px 25px; 
+    background: transparent url(../images/transparent.png) repeat;  
+    z-index: 1000;}
+
+#slideshow-caption p {
+    padding: 0;
+    font: normal 130% arial, sans-serif;
+    color: #FFF;
+    text-shadow: 1px 1px #000;}  
+
+#site_content
+{ width: 940px;
+  overflow: hidden;
+  border-radius: 10px;
+} 
+
+.sidebar_container
+{ float: right;
+  margin: 20px 0 0 10px;
+  width: 240px;}
+
+.sidebar
+{ float: left;
+  width: 240px;
+  margin-bottom: 10px;}
+
+.sidebar_item
+{ font: normal 100% Arial, Helvetica, sans-serif;
+  width: 240px;}
+
+.sidebar h2
+{ padding: 5px 0 0 0;
+  font: normal 140% 'News Cycle', Arial, sans-serif;
+  height: 30px;}  
+
+#content
+{ width: 800px;
+  margin: 0 0 20px 0;
+  float: left;}
+
+.content_item
+{ width: 1000px;
+  margin-top: 20px;
+  margin-bottom: 20px;}
+
+.content_container
+{ width: 330px;
+  margin: 20px 10px 0 0;
+  float: left;}
+
+footer
+{ 
+    margin-top: 90px;  
+    width: 1200px;
+    height: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;  
+    font-weight: bold;
+    text-align: center; 
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background: #0043A8;
+    background: -moz-linear-gradient(#43A9FF, #0043A8);
+    background: -o-linear-gradient(#43A9FF, #0043A8);
+    background: -webkit-linear-gradient(#43A9FF, #0043A8);
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border: 15px 15px 15px 15px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+
+footer a, footer a:hover
+{ text-shadow: 1px 1px #FFF;
+  color: #1D1D1D;
+  text-decoration: none;
+  padding-bottom: 20px;}
+
+footer a
+{ text-shadow: 1px 1px #000;
+  color: #FFF;
+  margin-top: auto;
+  text-decoration: none;
+}
+
+.readmore a
+{ color: #FFF;
+  text-shadow: 1px 1px #004C8C;}
+
+.button_small
+{ font: normal 110% Arial, Helvetica, sans-serif;
+  float: left;
+  height: 15px;
+  padding: 5px 10px 7px 8px;
+  background: #0043A8;
+  background: -moz-linear-gradient(#43A9FF, #0043A8);
+  background: -o-linear-gradient(#43A9FF, #0043A8);
+  background: -webkit-linear-gradient(#43A9FF, #0043A8);
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border: 15px 15px 15px 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+
+.button_small a
+{ color: #FFF;
+  padding-left: 5px;
+  text-shadow: 1px 1px #000;}
+
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 280px; 
+  text-align: left;
+  text-shadow: none;
+  color: #000;}
+
+.form_settings input, .form_settings textarea
+{ padding: 2px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+
+.form_settings input[type="checkbox"]
+{ padding: 2px 0; 
+  width: 15px; 
+  font: 100% arial; 
+  border: 0; 
+  background: #FFF; 
+  color: #47433F;
+  margin: 28px 0;}
+
+.form_settings .submit
+{ font: 100% arial; 
+  border: 1px solid; 
+  width: 99px; 
+  margin: 0 0 0 206px; 
+  height: 26px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #0043A8;
+  background: -moz-linear-gradient(#43A9FF, #0043A8);
+  background: -o-linear-gradient(#43A9FF, #0043A8);
+  background: -webkit-linear-gradient(#43A9FF, #0043A8);
+  color: #FFF;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;}
+
+/*MY Work*/
+
+/*Login Form Start*/
+input {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+}
+
+/* ---------- LOGIN ---------- */
+
+#login {
+    margin: 50px auto;
+    width: 400px;
+}
+
+#login h2 {
+    background: #000;
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+    font-size: 28px;
+    padding: 20px 26px;
+}
+
+#login h2 span[class*="fontawesome-"] {
+    margin-right: 14px;
+}
+
+#login fieldset {
+    background: #E5E5DB;
+    border-radius: 0 0 20px 20px;
+    padding: 20px 26px;
+}
+
+#login fieldset p {
+    color: #777;
+    margin-bottom: 14px;
+}
+
+#login fieldset p:last-child {
+    margin-bottom: 0;
+}
+
+#login fieldset input {
+    border-radius: 3px;
+}
+
+#login fieldset input[type="text"], #login fieldset input[type="password"] {
+    background: #eee;
+    color: #777;
+    padding: 4px 10px;
+    width: 328px;
+}
+
+#login fieldset input[type="submit"],[type="reset"] {
+    background: #33cc77;
+    color: #fff;
+    display: block;
+    float: left;
+    margin-left: 30px;
+    padding: 4px 0;
+    width: 100px;
+}
+/*#login fieldset input[type="reset"] {
+        background: #33cc77;
+        color: #fff;
+        display: block;
+        margin-top: 100px;
+        padding: 4px 0;
+        width: 100px;
+}*/
+
+
+#login fieldset input[type="submit"]:hover,input[type="reset"]:hover {
+    background: #28ad63;
+}
+/*Login Form End*/
+/*Registration Form Start*/
+.container{
+    width: 450;height: 600px;
+}
+.form1{
+    background:#f1f1f1; width:470px; margin:0 auto; padding-left:50px; padding-top:20px;
+    border-radius: 20px;
+}
+.form1 fieldset{border:0px; padding:0px; margin:0px;}
+.form1 p.contact { font-size: 12px; margin:0px 0px 10px 0;line-height: 14px; font-family:Arial, Helvetica;}
+
+.form1 input[type="text"] { width: 400px; }
+.form1 input[type="email"] { width: 400px; }
+.form1 input[type="password"] { width: 400px; }
+.form1 input.birthday{width:60px;}
+.form1 input.birthyear{width:120px;}
+.form1 label { color: #000; font-weight:bold;font-size: 12px;font-family:Arial, Helvetica; }
+.form1 input, textarea { background-color: rgba(255, 255, 255, 0.4); border: 1px solid rgba(122, 192, 0, 0.15); padding: 7px; font-family: Keffeesatz, Arial; color: #4b4b4b; font-size: 14px; -webkit-border-radius: 5px; margin-bottom: 15px; margin-top: -10px; }
+.form1 input:focus, textarea:focus { border: 1px solid #ff5400; background-color: rgba(255, 255, 255, 1); }
+.form1 .select-style {
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    background-image: url(images/select-arrow.png), 
+        -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 0px solid #FFF;
+    color: #555;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+.form1 .gender {
+    width:410px;
+}
+.form1 input.buttom{ background: #4b8df9; display: inline-block; padding: 5px 10px 6px; color: #fbf7f7; text-decoration: none; font-weight: bold; line-height: 1; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 1px 3px #999; -webkit-box-shadow: 0 1px 3px #999; box-shadow: 0 1px 3px #999; text-shadow: 0 -1px 1px #222; border: none; position: relative; cursor: pointer; font-size: 14px; font-family:Verdana, Geneva, sans-serif;}
+.form1 input.buttom:hover	{ background-color: #2a78f6; }
+/*Registration Form End*/
+
+/*Table View Start*/
+table{
+    border: 1px;
+}
+th {
+    color:#D5DDE5;;
+    background:#1b1e24;
+    border-bottom:4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size:20px;
+    font-weight: 100;
+    padding:10px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+}
+tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom-: 10px solid #C1C3D1;
+    color:#666B85;
+    font-size:16px;
+    /*font-weight:normal;*/
+    /*text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);*/
+}
+td {
+    background:#FFFFFF;
+    padding:5px;
+    text-align: center;
+    vertical-align:middle;
+    font-weight:300;
+    font-size:18px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-left: 1px solid #C1C3D1;
+    border-right: 1px solid #C1C3D1;
+    border-bottom: 1px solid #C1C3D1;
+}
+/*Table View End*/
+/*Update Button Start*/
+.animate
+{
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+.action-button
+{
+    position: relative;
+    padding: 1px 5px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;	
+}
+.red
+{
+    background-color: #E74C3C;
+    border-bottom: 5px solid #BD3E31;
+    text-shadow: 0px -2px #BD3E31;
+}
+.action-button:active
+{
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+/*Update Button End*/
